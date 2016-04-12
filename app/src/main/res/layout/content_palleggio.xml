@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/palleggioContent"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nesca.giuseppe.volleytutorial.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:fillViewport="false">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="165sp"
+            android:layout_height="144sp"
+            android:background="@drawable/ball"
+            android:layout_gravity="center_horizontal"
+            android:onClick="info"/>
+
+
+        <TextView
+            android:id="@+id/welcomePalleggio"
+            android:text="@string/pallMainTitle"
+            style="@style/titleStyle"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/palleggiodrago"
+            android:layout_margin="@dimen/fab_margin"/>
+        <TextView
+            android:id="@+id/introPalleggio"
+            style="@style/spiegazioneStyle"
+            android:text="@string/pallMAinSpiegazione"
+            />
+        <TextView
+            style="@style/subTitleStyle"
+            android:id="@+id/inferioriTitPall"
+            android:text="@string/pallInferioriTitle"/>
+        <TextView
+            style="@style/spiegazioneStyle"
+            android:id="@+id/inferioriSpiegazionePall"
+            android:text="@string/pallInferioriSpieg"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/palleggio"/>
+        <TextView
+            style="@style/subTitleStyle"
+            android:id="@+id/superioriTitPall"
+            android:text="@string/pallSuperioriTitle"/>
+        <TextView
+            style="@style/spiegazioneStyle"
+            android:id="@+id/superioriSpiegazionePall"
+            android:text="@string/pallSuperioriSpiegazione"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/angolo_gomiti"/>
+        <TextView
+            style="@style/subTitleStyle"
+            android:id="@+id/troncoTitoloPall"
+            android:text="@string/pallTroncoTitle"/>
+        <TextView
+            style="@style/spiegazioneStyle"
+            android:id="@+id/troncoSpiegazionePall"
+            android:text="@string/pallTroncoSpiegazione"/>
+    </LinearLayout>
+
+</ScrollView>
