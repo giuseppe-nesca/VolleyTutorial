@@ -1,57 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scroll1"
-    android:background="@drawable/background1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:fillViewport="false"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="nesca.giuseppe.volleytutorial.MainActivity"
-    tools:showIn="@layout/app_bar_main"
-    android:fillViewport="false">
+    tools:showIn="@layout/app_bar_main">
 
 
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:weightSum="1">
+        android:layout_height="wrap_content">
 
-        <Button
-            android:layout_width="165sp"
-            android:layout_height="144sp"
-            android:background="@drawable/ball"
-            android:layout_gravity="center_horizontal"
-            android:onClick="info"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="165sp"
+                android:layout_height="144sp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ball"
+                android:onClick="info" />
 
 
-        <TextView
-            android:id="@+id/welcomeText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Benvenuto nel tutorial base di volleyball"
-            android:fontFamily="sans-serif-medium"
-            android:textColor="@android:color/black"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center_horizontal"
-            android:textSize="50sp"/>
-        <TextView
-            android:id="@+id/welcomText2"
-            android:layout_margin="@dimen/activity_vertical_margin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="clicca sul pallone per maggiori informazioni"
-            android:fontFamily="sans-serif-small"
-            android:textColor="@android:color/black"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center_horizontal"
-            android:textSize="25sp"/>
-    </LinearLayout>
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:text="Benvenuto nel tutorial base di volleyball"
+                android:textColor="@android:color/black"
+                android:textSize="50sp" />
 
-</ScrollView>
+            <TextView
+                android:id="@+id/welcomText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:fontFamily="sans-serif-small"
+                android:gravity="center_horizontal"
+                android:text="clicca sul pallone per maggiori informazioni"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

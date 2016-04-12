@@ -79,4 +79,17 @@
     <string name="bagherkMainSpiegazione">Nonostante i gesti tecnici abbiano lo stesso nome, il modo in cui vengono praticati
     è nettemanete diverso: si distinguono bagher di <u>ricezione</u> e bagher di <u>difesa</u>.\n
     </string>
+    <string name="bagherRicezioneTitle">Ricezione</string>
+    <string name="bagherRicezioneSpieg">Il bagher in ricezione è caratterizzato da una posizinoe d\'attesa analoga a quella di un palleggio basso, ma con braccia protese in avanti unite e rigide.
+     All\'impatto con il pallone bisogna far si che il piano di rimbalzo lo faccia andare verso l\'alto e verso la posizione del palleggiatore.
+    In caso di palloni lenti (le "Free Ball") se c\'è necessità di spingere il pallone va fatto con l\'aiuto esclusivo delle gambe.
+     Le braccia durante il gesto devono mantenere la rigida posizione per non alterare la traiettoria della palla.\n
+    In caso di spostamenti ci si deve preparare a ricevere la palla d\'avanti, quindi bisogna porsi con il corpo esattamente di fronte al pallone.</string>
+    <string name="bagherDifesaTitle">Difesa</string>
+    <string name="bagherDifesaSpieg">Il bagher di difesa necessita della posizinoe bassa e stabile, e le mani unite e le braccia morbide.
+     Ci si attende un tiro forte, quindi le braccia devono ammorbidire l\'impatto per controllare il pallone e non farlo rimbalzare fuori dal campo.
+    Sempre a causa della potenza che è caratteristica dell\'attacco, non c\'è tempo per spostarrsi quindi le braccia devon essere pronte a posizionarsi contro il pallone qualsiasi traiettoria vada a attraversare.
+     I piedi devono essere fermi nella posizione scelta prima dell\'attacco, e il corpo deve andare ad allungarsi se ne cessario per opporsi al pallone.
+    E\' difficile ottenre grande precisione in questo fondamentale, quindi l\'obbiettivo e tenere la palla alta in campo e dare moodo al palleggiatore di raggiungerla e proseguire l\'azione.</string>
+
 </resources>
