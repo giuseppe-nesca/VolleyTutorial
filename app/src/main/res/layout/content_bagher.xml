@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/bagherContent"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
@@ -16,6 +16,7 @@
     tools:showIn="@layout/app_bar_main">
 
     <ScrollView
+        android:id="@+id/bagherContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -37,19 +38,37 @@
                 style="@style/titleStyle"
 
                 android:text="@string/bagherMainTitle" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/baghert"/>
 
             <TextView
                 style="@style/spiegazioneStyle"
-
                 android:text="@string/bagherkMainSpiegazione" />
 
             <TextView
                 style="@style/subTitleStyle"
-                android:text="@string/bagherRicezioneTitle"/>
+                android:text="@string/bagherRicezioneTitle"
+                android:id="@+id/bagherRicezioneTitle"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/ricazionet"/>
             <TextView
                 style="@style/spiegazioneStyle"
                 android:text="@string/bagherRicezioneSpieg" />
-
+            <TextView
+                style="@style/subTitleStyle"
+                android:text="@string/bagherDifesaTitle"
+                android:id="@+id/bagherDifesaTitle"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/deft"/>
+            <TextView
+                style="@style/spiegazioneStyle"
+                android:text="@string/bagherDifesaSpieg"/>
         </LinearLayout>
     </ScrollView>
 

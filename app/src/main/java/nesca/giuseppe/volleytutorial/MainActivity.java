@@ -73,6 +73,8 @@ public class MainActivity extends AppCompatActivity
             case 1: getMenuInflater().inflate(R.menu.main,menu);break;          //spike
             case 2: getMenuInflater().inflate(R.menu.main2,menu); break;        //palleggio
             case 3: getMenuInflater().inflate(R.menu.main3,menu); break;
+            case 4: getMenuInflater().inflate(R.menu.main4,menu); break;
+            case 5: getMenuInflater().inflate(R.menu.main5,menu); break;
             default: getMenuInflater().inflate(R.menu.main0,menu); break;
         }
 
@@ -88,13 +90,13 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_scrollSalto) {
-            ScrollView scrollView = (ScrollView) findViewById(R.id.spikeprova);
+            ScrollView scrollView = (ScrollView) findViewById(R.id.spikeContent);
             TextView textView = (TextView) findViewById(R.id.saltoTitle);
             myscroll(scrollView, textView);
             return true;
         }
         if (id == R.id.action_scrollMani){
-            ScrollView scrollView = (ScrollView) findViewById(R.id.spikeprova);
+            ScrollView scrollView = (ScrollView) findViewById(R.id.spikeContent);
             TextView textView = (TextView) findViewById(R.id.movManT);
             myscroll(scrollView, textView);
             return true;
@@ -125,6 +127,16 @@ public class MainActivity extends AppCompatActivity
         if(id==R.id.action_scrollStrategie){
             ScrollView scrollView = (ScrollView) findViewById(R.id.blockContent);
             TextView textView = (TextView) findViewById(R.id.blockStrategieTitle);
+            myscroll(scrollView,textView);
+        }
+        if(id==R.id.action_scrollRicezione){
+            ScrollView scrollView = (ScrollView) findViewById(R.id.bagherContent);
+            TextView textView = (TextView) findViewById(R.id.bagherRicezioneTitle);
+            myscroll(scrollView,textView);
+        }
+        if(id==R.id.action_scrollDifesa){
+            ScrollView scrollView = (ScrollView) findViewById(R.id.bagherContent);
+            TextView textView = (TextView) findViewById(R.id.bagherDifesaTitle);
             myscroll(scrollView,textView);
         }
 

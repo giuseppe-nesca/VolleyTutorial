@@ -35,8 +35,8 @@
             android:layout_height="match_parent"
             android:id="@+id/vf">
 
-            <include layout="@layout/content_main" android:id="@+id/mostrato1" />
-            <include layout="@layout/content_spike" android:id="@+id/spikeprova"/> <!-- 1 -->
+            <include layout="@layout/content_main"  />
+            <include layout="@layout/content_spike" /> <!-- 1 -->
             <include layout="@layout/content_palleggio"/> <!-- 2 -->
             <include layout="@layout/content_block"/> <!-- 3 -->
             <include layout="@layout/content_bagher"/> <!-- 4 -->

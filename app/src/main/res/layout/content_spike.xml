@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/spikeContent"
     android:background="@color/colorAccent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,6 +16,7 @@
 
 
     <ScrollView
+        android:id="@+id/spikeContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <LinearLayout
@@ -37,6 +37,10 @@
             style="@style/titleStyle"
             android:id="@+id/welcomeText"
             android:text="@string/att" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/spiketit"/>
         <TextView
             android:id="@+id/welcomeText2"
             android:layout_margin="@dimen/activity_vertical_margin"
@@ -51,17 +55,17 @@
             style="@style/subTitleStyle"
             android:id="@+id/saltoTitle"
             android:text="@string/salt" />
-
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/spike_approach"/>
 
         <TextView
             style="@style/spiegazioneStyle"
             android:id="@+id/welcomeText3"
             android:text="@string/att_info2"
             android:textSize="25sp"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/spike_approach"/>
+
         <TextView
             android:id="@+id/welcomeText4"
             android:layout_margin="@dimen/activity_vertical_margin"
@@ -86,6 +90,10 @@
             android:textColor="@android:color/black"
             android:layout_gravity="center_horizontal"
             android:textSize="40sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/manoavvolgente" />
         <TextView
             android:id="@+id/movManS"
             android:layout_margin="@dimen/activity_vertical_margin"
@@ -96,10 +104,7 @@
             android:textColor="@android:color/black"
             android:layout_gravity="center_horizontal"
             android:textSize="25sp"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/manoavvolgente"/>
+
 
     </LinearLayout>
     </ScrollView>

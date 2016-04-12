@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/palleggioContent"
     android:background="@color/colorAccent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,6 +16,7 @@
 
 
     <ScrollView
+        android:id="@+id/palleggioContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <LinearLayout
@@ -51,27 +51,29 @@
             style="@style/subTitleStyle"
             android:id="@+id/inferioriTitPall"
             android:text="@string/pallInferioriTitle"/>
-        <TextView
-            style="@style/spiegazioneStyle"
-            android:id="@+id/inferioriSpiegazionePall"
-            android:text="@string/pallInferioriSpieg"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/fab_margin"
             android:src="@drawable/palleggio"/>
         <TextView
+            style="@style/spiegazioneStyle"
+            android:id="@+id/inferioriSpiegazionePall"
+            android:text="@string/pallInferioriSpieg"/>
+
+        <TextView
             style="@style/subTitleStyle"
             android:id="@+id/superioriTitPall"
             android:text="@string/pallSuperioriTitle"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/angolo_gomiti"/>
         <TextView
             style="@style/spiegazioneStyle"
             android:id="@+id/superioriSpiegazionePall"
             android:text="@string/pallSuperioriSpiegazione"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:src="@drawable/angolo_gomiti"/>
+
         <TextView
             style="@style/subTitleStyle"
             android:id="@+id/troncoTitoloPall"

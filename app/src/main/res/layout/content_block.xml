@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/blockContent"
     android:background="@color/colorAccent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,6 +16,7 @@
 
 
     <ScrollView
+        android:id="@+id/blockContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <LinearLayout
@@ -54,7 +54,7 @@
             <!--android:src="@drawable/gesto_con_la_palla"/>    RALLENTA LO SCROLL TROPPO   -->
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="300dp"
             android:src="@drawable/visto_dallalto"
             />
         <TextView
