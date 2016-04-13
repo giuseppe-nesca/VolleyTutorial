@@ -17,7 +17,7 @@
 
 
     <ScrollView
-        android:id="@+id/scrollServ"
+        android:id="@+id/servContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -43,7 +43,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:src="@drawable/savaniserv"/>
+                android:src="@drawable/zarserv"/>
 
             <TextView
                 android:id="@+id/servMainSpieg"
@@ -61,6 +61,18 @@
                 style="@style/spiegazioneStyle"
                 android:id="@+id/servFloatSpieg"
                 android:text="@string/servFloatSpieg"/>
+            <TextView
+                style="@style/subTitleStyle"
+                android:id="@+id/servSpinTitle"
+                android:text="@string/servSpinTitle" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/savaniserv"
+                />
+            <TextView
+                style="@style/spiegazioneStyle"
+                android:text="@string/servSpinSpieg" />
         </LinearLayout>
     </ScrollView>
 

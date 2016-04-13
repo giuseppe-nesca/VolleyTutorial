@@ -139,6 +139,16 @@ public class MainActivity extends AppCompatActivity
             TextView textView = (TextView) findViewById(R.id.bagherDifesaTitle);
             myscroll(scrollView,textView);
         }
+        if(id==R.id.action_scrollFloat){
+            ScrollView scrollView=(ScrollView) findViewById(R.id.servContent);
+            TextView textView = (TextView) findViewById(R.id.servFloatTitle);
+            myscroll(scrollView,textView);
+        }
+        if(id==R.id.action_scrollSpin){
+            ScrollView scrollView=(ScrollView) findViewById(R.id.servContent);
+            TextView textView = (TextView) findViewById(R.id.servSpinTitle);
+            myscroll(scrollView,textView);
+        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -161,10 +171,19 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_servizio) {
             changeContent(5);
         }
+        else changeContent(0);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    public void returntomainview(View view)
+    {
+        changeContent(0);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setBackgroundTintList(getResources().getColorStateList(R.color.colorAccent));
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
     }
 
     public void info(View view)
