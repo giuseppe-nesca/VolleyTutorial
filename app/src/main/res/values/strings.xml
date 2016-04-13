@@ -36,8 +36,8 @@
     E\' possibile dare diverse direzioni al pallone tramite: un extra rotazione (ruotando la mano verso l\'esterno), intrarotazione (ruotando la mano verso l\'interno).
     Inoltre un buon colpo colpisce la palla avvolgendola con la mano. In questo modo si darà lo spin che aumenta la velocità e accorcia la parabola disegnata del pallone.
     </string>
-    
-    //palleggio content
+
+    <!--palleggio content-->
     <string name="pallMainTitle">Palleggio</string>
     <string name="pallMAinSpiegazione">è il fondamentale che tutti i giocatori di pallavolo sono tenuti a saper padroneggiare.\n
      In particolar modo il palleggiatore deve approfondire molto questa tecnica perché e quella che userà maggiormente in partita.\n
@@ -58,7 +58,7 @@
     Fondamentale nella spinta della palla serve per indirizzare in avanti, indietro o in alto il pallone.</string>
 
 
-    //block
+    <!--block-->
     <string name="blockMainTitle">Muro</string>
     <string name="blockMainSpiegazione">Il muro è la prima difesa. In base al suo posizionamento i difensori andranno a coprire il campo lasciato scoperto.
     Lo scopo è quello di mettere in difficoltà l\'attacco avversario coprendo il maggior numero di traiettorie.\n
@@ -74,7 +74,7 @@
     Il muro in genere può essere effetuato coprendo più le traiettorie in diagonale piuttosto che quelle lungolinea.</string>
 
 
-    //bagher
+    <!--bagher-->
     <string name="bagherMainTitle">Bagher</string>
     <string name="bagherkMainSpiegazione">Nonostante i gesti tecnici abbiano lo stesso nome, il modo in cui vengono praticati
     è nettemanete diverso: si distinguono bagher di <u>ricezione</u> e bagher di <u>difesa</u>.\n
@@ -92,4 +92,19 @@
      I piedi devono essere fermi nella posizione scelta prima dell\'attacco, e il corpo deve andare ad allungarsi se ne cessario per opporsi al pallone.
     E\' difficile ottenre grande precisione in questo fondamentale, quindi l\'obbiettivo e tenere la palla alta in campo e dare moodo al palleggiatore di raggiungerla e proseguire l\'azione.</string>
 
+    <!--serv-->
+    <string name="servMainTitle">Battuta</string>
+    <string name="servMainSpieg">Il servizio è il primo attacco. Può essere effettuato spin o flottante.</string>
+    <string name="servFloatTitle">Float</string>
+    <string name="servFloatSpieg">La battuta flottante può essere effettuata sia in salto che con i piedi per terra.
+    La potenza non è la parte più importante di questo fondamentale, ma la precisione nella traiettoria e nel gesto tecnico determinano v
+    l\'efficacia del colpo. La float consiste nel colpire la palla nel centro con il palmo della mano e bloccare il braccio all\'estensione senza proseguire il movimento.
+    In questo modo la palla non ha spin e la traiettoria tenderà a chiudersi molto velocemente mettendo in difficoltà
+     i ricettori avversari.</string>
+    <string name="servSpinTitle">Spin</string>
+    <string name="servSpinSpieg">La battuta spin è basata sulla potenza di tiro. Anche ad alti livelli è utilizzata solo da giocatori che fanno della
+    potenza d\'attacco il loro punto forte. Difficile dare una direzinoe precisa alla palla e non importa: spesso infatti
+    si mira al centro del campo. Quello che conta è mettere la palla nel campo avversario in maniera molto forte, senza sbagliare ovviamente!\n
+    La tecnica è molto simile a quella dell\'attacco cambia la distanza da rete (quindi non si può chiudere molto la palla col polso) e il gesto dell\'auto-alzata che
+    è fondamentale effettuare bene perchè condiziona tutto il resto del gesto tecnico.</string>
 </resources>

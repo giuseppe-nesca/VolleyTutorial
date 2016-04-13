@@ -2,13 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_scrollRicezione"
+        android:id="@+id/action_scrollFloat"
         android:orderInCategory="100"
-        android:title="Tecnica"
+        android:title="Float"
         app:showAsAction="never" />
     <item
-        android:id="@+id/action_scrollDifesa"
+        android:id="@+id/action_scrollSpin"
         android:orderInCategory="100"
-        android:title="Strategie"
+        android:title="Spin"
         app:showAsAction="never"/>
 </menu>

@@ -3,60 +3,77 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 
-    android:background="@drawable/background1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:fillViewport="false"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="nesca.giuseppe.volleytutorial.MainActivity"
-    tools:showIn="@layout/app_bar_main"
-    android:fillViewport="false">
+    tools:showIn="@layout/app_bar_main">
 
 
     <ScrollView
+        android:id="@+id/servContent"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/scrollServ">
-    <LinearLayout
+        android:layout_height="wrap_content">
 
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:weightSum="1">
+        <LinearLayout
 
-        <Button
-            android:layout_width="165sp"
-            android:layout_height="144sp"
-            android:background="@drawable/ball"
-            android:layout_gravity="center_horizontal"
-            android:onClick="info"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="165sp"
+                android:layout_height="144sp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ball"
+                android:onClick="info" />
 
 
-        <TextView
-            android:id="@+id/welcomeText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SPKE"
-            android:fontFamily="sans-serif-medium"
-            android:textColor="@android:color/black"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center_horizontal"
-            android:textSize="50sp"/>
-        <TextView
-            android:id="@+id/welcomeText2"
-            android:layout_margin="@dimen/activity_vertical_margin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="lololololol"
-            android:fontFamily="sans-serif-small"
-            android:textColor="@android:color/black"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center_horizontal"
-            android:textSize="25sp"/>
-    </LinearLayout>
+            <TextView
+                android:id="@+id/servMainTitle"
+                style="@style/titleStyle"
+                android:text="@string/servMainTitle"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/zarserv"/>
+
+            <TextView
+                android:id="@+id/servMainSpieg"
+                style="@style/spiegazioneStyle"
+                android:text="@string/servMainSpieg"  />
+            <TextView
+                android:id="@+id/servFloatTitle"
+                style="@style/subTitleStyle"
+                android:text="@string/servFloatTitle"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/battutafloat"/>
+            <TextView
+                style="@style/spiegazioneStyle"
+                android:id="@+id/servFloatSpieg"
+                android:text="@string/servFloatSpieg"/>
+            <TextView
+                style="@style/subTitleStyle"
+                android:id="@+id/servSpinTitle"
+                android:text="@string/servSpinTitle" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/savaniserv"
+                />
+            <TextView
+                style="@style/spiegazioneStyle"
+                android:text="@string/servSpinSpieg" />
+        </LinearLayout>
     </ScrollView>
 
 </RelativeLayout>
