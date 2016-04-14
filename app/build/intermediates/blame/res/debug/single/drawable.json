@@ -4,16 +4,16 @@
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/dragosfocato.jpg"
     },
     {
-        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/assist.png",
-        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/assist.png"
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/deft.jpg",
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/deft.jpg"
     },
     {
-        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/assist.png",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/assist.png"
     },
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
@@ -32,12 +32,12 @@
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/savaniserv.jpg"
     },
     {
-        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/zarserv.jpg",
-        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/zarserv.jpg"
-    },
-    {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/manoavvolgente.jpg",
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/manoavvolgente.jpg"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/zarserv.jpg",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/zarserv.jpg"
     },
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
@@ -62,6 +62,10 @@
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/block3it.jpg",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/block3it.jpg"
     },
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/block2.png",
@@ -216,6 +220,10 @@
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/ic_menu_manage.xml"
     },
     {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/servrallenty.jpg",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/servrallenty.jpg"
+    },
+    {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/ricazionet.jpg",
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/ricazionet.jpg"
     },
@@ -290,6 +298,10 @@
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/iconlogo.png",
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/iconlogo.png"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/blockschema.png",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/blockschema.png"
     },
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/palleggiodrago.jpg",

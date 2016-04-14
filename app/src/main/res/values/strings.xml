@@ -13,10 +13,10 @@
     </string>
 
     <string name="att">Schiacciata</string>
-    <string name="att_info1">E\' un fondamentale molto vario. Puo essere effettuato sia da terra che in salto. In particolare se il giocatore è in seconda linea può saltare purché
-    lo stacco da terra avvenga prima della linea dei tre metri.\nPossiamo distinguere due fasi: il salto e la schiacciata vera e propria.</string>
+    <string name="att_info1">E\' un fondamentale molto vario. Può essere effettuato sia da terra che in salto. In particolare se il giocatore è in seconda linea può saltare purché
+    lo stacco da terra avvenga prima della linea dei tre metri.\nPossiamo distinguere due fasi: il salto e la schiacciata vera e propria.\n</string>
     <string name="att_info2">Il salto ha come obbiettivo quello di far colpire la palla il più in alto possibile permettendo al giocatore una scelta di traiettorie più
-    ampia possibile mettendo in difficoltà maggiore i difensori avversari.\nA tale scopo i tempi di salto possono variare in modo da anticipare il muro (che è la prima difesa avversaria
+    ampia possibile mettendo in difficoltà maggiore i difensori avversari.\nA tale scopo i tempi di salto possono variare in modo  anticipare il muro (che è la prima difesa avversaria
     o rallentare i ritmi di gioco per mandare fuoritempo il muro avversario.\nPossiamo distinguere:\n - Primo tempo\n - Secondo tempo\n - Terzo tempo\n
     Il PRIMO TEMPO è in genere l\'attacco del giocatore centrale che trovandosi molto vicino la palleggiatore può saltare nel momento in cui il palleggiatore sta alzando la palla.
     Non importa se il regista darà la palla a un altro attaccante, il movimento del centrale terrà impegnato per un po\' di tempo il blocker avversario mettendo in difficolta il muro in altre zone del campo.\n
@@ -24,30 +24,30 @@
     \nIl TERZO TEMPO è un attacco con palla alta che da il tempo all\'attaccante di posizionarsi nel punto migliore per saltare e guardare la posizione dei difensori avversari.
      Però anche gli avversari avranno il tempo di posizionarsi al meglio.</string>
     <string name="salto">Per ottimizzare l\'elevazione e la velocità di caricamento, il salto richiede dei movimenti ben precisi.\n Di norma si effettuano 3 passi (2 passi e mezzo per la precisione).\n
-        il primo è lultimo o l\'unico di posizionamento, per colpire la palla nel punto migliore. Il secondo e il terzo assomigliano a un passo lungo o un balzo accompagnato da un movimento
+        il primo è l\'ultimo o l\'unico di posizionamento, per colpire la palla nel punto migliore. Il secondo e il terzo assomigliano a un passo lungo o un balzo accompagnato da un movimento
         all\'indietro delle braccia. Dopo di ciò si sfrutta il caricamento della rincorsa e lo slancio delle braccia verso l\'alto per colpire la palla nel punto migliore.
     </string>
     <string name="salt">Salto</string>
     <string name="movMan">Movimento delle mani</string>
-    <string name="movManS">Durante il salto se braccia vanno dal basso in alto per dare lo slancio; in particolare la mano preferita (quella che tirerà lo schiaffo al pallone
+    <string name="movManS">Durante il salto le braccia vanno dal basso in alto per dare lo slancio; in particolare la mano preferita (quella che tirerà lo schiaffo al pallone
     prosegue il moto oscillatorio superando la testa e andando indietro. Questo movimento tirerà i muscoli interessati al gesto atletico sfruttando le proprietà elastiche del nostro apparato muscolare.
-    Ora, raggiunta la palla in altezza possiamo con il braccio testo per fruttare la leva ("a tutto braccio" come si dice in gergo) possiamo tirare con forza la palla nel campo avversario.\n
+    Ora, raggiunta la palla in altezza possiamo con il braccio testo per sfruttare la leva ("a tutto braccio" come si dice in gergo) possiamo tirare con forza la palla nel campo avversario.\n
     Importante è a questo punto la manualità.\n
-    E\' possibile dare diverse direzioni al pallone tramite: un extra rotazione (ruotando la mano verso l\'esterno), intrarotazione (ruotando la mano verso l\'interno).
+    E\' possibile dare diverse direzioni al pallone tramite: un\'extrarotazione (ruotando la mano verso l\'esterno), intrarotazione (ruotando la mano verso l\'interno).
     Inoltre un buon colpo colpisce la palla avvolgendola con la mano. In questo modo si darà lo spin che aumenta la velocità e accorcia la parabola disegnata del pallone.
     </string>
 
     <!--palleggio content-->
     <string name="pallMainTitle">Palleggio</string>
     <string name="pallMAinSpiegazione">è il fondamentale che tutti i giocatori di pallavolo sono tenuti a saper padroneggiare.\n
-     In particolar modo il palleggiatore deve approfondire molto questa tecnica perché e quella che userà maggiormente in partita.\n
+     In particolar modo il palleggiatore deve approfondire molto questa tecnica perché è quella che userà maggiormente in partita.\n
      Richiede grande manualità, precisione e velocità. La palla deve essere colpita contemporaneamente da tutte le dita. Queste
     devono essere rigide a contatto con la palla per evitare un fallo. E\' importante arrivare velocemente al punto dove poter toccare la palla per
-    preparasi a effettuare correttamente il gesto tecnico.\n Nel movimento è coinvolto l\'intero corpo, dagli arti superiori a quelli inferiori incluso il tronco.</string>
+    prepararsi a effettuare correttamente il gesto tecnico.\n Nel movimento è coinvolto l\'intero corpo, dagli arti superiori a quelli inferiori incluso il tronco.</string>
     <string name="pallInferioriTitle">Arti inferiori</string>
     <string name="pallInferioriSpieg">L\'importanza degli arti inferiori è dovuta alla rapidità necessria affinchè ci si posizioni
-    bene e velocemente sotto il pallone e/o lo si raggiunga in salto in maniera precisa e tramite la propusione delle gambe venga data la giusta spinta alla sfera. Per fare ciò è necessaria una <u>posizione di attesa</u>:\n
-     - gambe leggermente flesse (il piegamento varia a seconda di come ci si appresta spingere la palla\n
+    bene e velocemente sotto il pallone e/o lo si raggiunga in salto in maniera precisa e tramite la propulsione delle gambe venga data la giusta spinta alla sfera. Per fare ciò è necessaria una <u>posizione di attesa</u>:\n
+     - gambe leggermente flesse (il piegamento varia a seconda di come ci si appresta a spingere la palla\n
      - piedi divaricati (non eccessivamente), uno più avanti dell\'altro (per avere reattività di movimento se necessario)\n</string>
     <string name="pallSuperioriTitle">Arti Superiori</string>
     <string name="pallSuperioriSpiegazione">Le braccia durante la spinta devono muoversi simmetricamente. Al tocco devono essere leggermente flesse in modo da
@@ -65,12 +65,12 @@
     I tre giocatori di prima linea sono interessati al muro. In genere si parla di muro a "sangue" in caso di uno contro uno,
     muro a due o muro a tre. In genere il muro è effettuato a due: il giocatore del lato interessato più il centrale (o blocker) che con uno spostamento laterale e veloce va ad aggiungersi. </string>
     <string name="blockTecnicaTitle">Tecnica</string>
-    <string name="blockTecnicaSpiegazione">Importante nel salto e non esagerare e mostrare le braccia all\'attaccante il più tardi possibile e il meno possibile. Infatti dando modo di leggere
+    <string name="blockTecnicaSpiegazione">Importante nel salto è non esagerare e mostrare le braccia all\'attaccante il più tardi possibile e il meno possibile. Infatti dando modo di leggere
     il muro l\'attaccante può tentare un <u>mani\-fuori</u>: sfrutta il rimbalzo del muro per spedire la palla lontano e aggiudicarsi il punto.\n
      Per evitare ciò è importante eseguire il movimento del muro al meglio: le mani devono essere aperte e tese con il piano di rimbalzo orientato verso il centro del campo.\n
      Inoltre in caso di pallonetto i blocker dovranno essere rapidi a voltarsi per prendere la palla in caso essa stia cadendo nelle vicinanze.</string>
     <string name="blockStrategieTitle">Strategie e posizionamento</string>
-    <string name="blockStrategieSpiegaione">La scelta della podizione del muro è fondamentale per la difesa: scegliendo quali traiettorie lasciare scoperte la difesa sarà disposta in diversi modi.\n
+    <string name="blockStrategieSpiegaione">La scelta della posizione del muro è fondamentale per la difesa: scegliendo quali traiettorie lasciare scoperte la difesa sarà disposta in diversi modi.\n
     Il muro in genere può essere effetuato coprendo più le traiettorie in diagonale piuttosto che quelle lungolinea.</string>
 
 
@@ -80,30 +80,30 @@
     è nettemanete diverso: si distinguono bagher di <u>ricezione</u> e bagher di <u>difesa</u>.\n
     </string>
     <string name="bagherRicezioneTitle">Ricezione</string>
-    <string name="bagherRicezioneSpieg">Il bagher in ricezione è caratterizzato da una posizinoe d\'attesa analoga a quella di un palleggio basso, ma con braccia protese in avanti unite e rigide.
+    <string name="bagherRicezioneSpieg">Il bagher in ricezione è caratterizzato da una posizione d\'attesa analoga a quella di un palleggio basso, ma con braccia protese in avanti unite e rigide.
      All\'impatto con il pallone bisogna far si che il piano di rimbalzo lo faccia andare verso l\'alto e verso la posizione del palleggiatore.
     In caso di palloni lenti (le "Free Ball") se c\'è necessità di spingere il pallone va fatto con l\'aiuto esclusivo delle gambe.
      Le braccia durante il gesto devono mantenere la rigida posizione per non alterare la traiettoria della palla.\n
     In caso di spostamenti ci si deve preparare a ricevere la palla d\'avanti, quindi bisogna porsi con il corpo esattamente di fronte al pallone.</string>
     <string name="bagherDifesaTitle">Difesa</string>
-    <string name="bagherDifesaSpieg">Il bagher di difesa necessita della posizinoe bassa e stabile, e le mani unite e le braccia morbide.
+    <string name="bagherDifesaSpieg">Il bagher di difesa necessita della posizione bassa e stabile, e le mani unite e le braccia morbide.
      Ci si attende un tiro forte, quindi le braccia devono ammorbidire l\'impatto per controllare il pallone e non farlo rimbalzare fuori dal campo.
-    Sempre a causa della potenza che è caratteristica dell\'attacco, non c\'è tempo per spostarrsi quindi le braccia devon essere pronte a posizionarsi contro il pallone qualsiasi traiettoria vada a attraversare.
-     I piedi devono essere fermi nella posizione scelta prima dell\'attacco, e il corpo deve andare ad allungarsi se ne cessario per opporsi al pallone.
-    E\' difficile ottenre grande precisione in questo fondamentale, quindi l\'obbiettivo e tenere la palla alta in campo e dare moodo al palleggiatore di raggiungerla e proseguire l\'azione.</string>
+    Sempre a causa della potenza che è caratteristica dell\'attacco, non c\'è tempo per spostarsi quindi le braccia devono essere pronte a posizionarsi contro il pallone qualsiasi traiettoria vada ad attraversare.
+     I piedi devono essere fermi nella posizione scelta prima dell\'attacco, e il corpo deve andare ad allungarsi se necessario per opporsi al pallone.
+    E\' difficile ottenere grande precisione in questo fondamentale, quindi l\'obbiettivo è tenere la palla alta in campo e dare modo al palleggiatore di raggiungerla e proseguire l\'azione.</string>
 
     <!--serv-->
     <string name="servMainTitle">Battuta</string>
     <string name="servMainSpieg">Il servizio è il primo attacco. Può essere effettuato spin o flottante.</string>
     <string name="servFloatTitle">Float</string>
     <string name="servFloatSpieg">La battuta flottante può essere effettuata sia in salto che con i piedi per terra.
-    La potenza non è la parte più importante di questo fondamentale, ma la precisione nella traiettoria e nel gesto tecnico determinano v
+    La potenza non è la parte più importante di questo fondamentale, ma la precisione nella traiettoria e nel gesto tecnico determinano
     l\'efficacia del colpo. La float consiste nel colpire la palla nel centro con il palmo della mano e bloccare il braccio all\'estensione senza proseguire il movimento.
     In questo modo la palla non ha spin e la traiettoria tenderà a chiudersi molto velocemente mettendo in difficoltà
      i ricettori avversari.</string>
     <string name="servSpinTitle">Spin</string>
     <string name="servSpinSpieg">La battuta spin è basata sulla potenza di tiro. Anche ad alti livelli è utilizzata solo da giocatori che fanno della
-    potenza d\'attacco il loro punto forte. Difficile dare una direzinoe precisa alla palla e non importa: spesso infatti
+    potenza d\'attacco il loro punto forte. Difficile dare una direzione precisa alla palla e non importa: spesso infatti
     si mira al centro del campo. Quello che conta è mettere la palla nel campo avversario in maniera molto forte, senza sbagliare ovviamente!\n
     La tecnica è molto simile a quella dell\'attacco cambia la distanza da rete (quindi non si può chiudere molto la palla col polso) e il gesto dell\'auto-alzata che
     è fondamentale effettuare bene perchè condiziona tutto il resto del gesto tecnico.</string>
