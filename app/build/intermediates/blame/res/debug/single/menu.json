@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/menu/main0.xml",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/menu/main0.xml"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/menu/main5.xml",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/menu/main5.xml"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/menu/main2.xml",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/menu/main2.xml"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/menu/main4.xml",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/menu/main4.xml"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/menu/main3.xml",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/menu/main3.xml"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/menu/activity_main_drawer.xml"
+    }
+]
