@@ -64,6 +64,10 @@
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_clear_material.xml"
     },
     {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/block3it.jpg",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/block3it.jpg"
+    },
+    {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/block2.png",
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/block2.png"
     },
@@ -216,8 +220,16 @@
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/ic_menu_manage.xml"
     },
     {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/servrallenty.jpg",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/servrallenty.jpg"
+    },
+    {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/ricazionet.jpg",
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/ricazionet.jpg"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/zarbattuta.png",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/zarbattuta.png"
     },
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/visto_dallalto.jpg",
@@ -290,6 +302,10 @@
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/iconlogo.png",
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/iconlogo.png"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/blockschema.png",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/src/main/res/drawable/blockschema.png"
     },
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/drawable/palleggiodrago.jpg",

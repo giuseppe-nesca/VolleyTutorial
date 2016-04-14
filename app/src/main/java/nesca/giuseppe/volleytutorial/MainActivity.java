@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity
                 break;          //Battuta
             default:
                 getMenuInflater().inflate(R.menu.main0, menu);
-                break;          //MainView
+                break;          //void for main content
         }
 
         return true;
