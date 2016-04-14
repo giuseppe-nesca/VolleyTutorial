@@ -56,12 +56,12 @@
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
         "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/home/peppe/AndroidStudioProjects/VolleyTutorial/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
