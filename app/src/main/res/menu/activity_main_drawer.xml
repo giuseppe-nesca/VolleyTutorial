@@ -5,33 +5,39 @@
         <item
             android:id="@+id/nav_spike"
 
-            android:title="Attacco" />
+            android:title="Attacco"
+            android:icon="@drawable/spike"/>
         <!-- android:icon="@drawable/ic_menu_gallery"   per aggiungere un'icona affianco al title -->
         <item
             android:id="@+id/nav_palleggio"
+            android:icon="@drawable/assist"
             android:title="Palleggio" />
         <item
             android:id="@+id/nav_block"
-            android:title="Muro" />
+            android:title="Muro"
+            android:icon="@drawable/block2"
+            />
         <item
             android:id="@+id/nav_bagher"
+            android:icon="@drawable/bagher"
             android:title="Bagher" />
         <item
             android:id="@+id/nav_servizio"
+            android:icon="@drawable/serv"
             android:title="Servizio"/>
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
 
 </menu>
