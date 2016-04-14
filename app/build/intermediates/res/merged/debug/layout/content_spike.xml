@@ -33,7 +33,6 @@
                 android:background="@drawable/yball"
                 android:onClick="info" />
 
-
             <TextView
                 android:id="@+id/welcomeText"
                 style="@style/titleStyle"
@@ -46,14 +45,8 @@
 
             <TextView
                 android:id="@+id/welcomeText2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_margin="@dimen/activity_vertical_margin"
-                android:fontFamily="sans-serif-small"
-                android:text="@string/att_info1"
-                android:textColor="@android:color/black"
-                android:textSize="25sp" />
+                style="@style/spiegazioneStyle"
+                android:text="@string/att_info1" />
 
             <TextView
                 android:id="@+id/saltoTitle"
@@ -62,58 +55,33 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="200dp"
                 android:src="@drawable/spike_approach" />
 
             <TextView
                 android:id="@+id/welcomeText3"
                 style="@style/spiegazioneStyle"
-                android:text="@string/att_info2"
-                android:textSize="25sp" />
+                android:text="@string/att_info2" />
 
             <TextView
                 android:id="@+id/welcomeText4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_margin="@dimen/activity_vertical_margin"
-                android:fontFamily="sans-serif-small"
-                android:text="@string/salto"
-                android:textColor="@android:color/black"
-                android:textSize="25sp" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/bracciosteso" />
+                style="@style/spiegazioneStyle"
+                android:text="@string/salto" />
 
             <TextView
                 android:id="@+id/movManT"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:fontFamily="sans-serif-medium"
-                android:text="@string/movMan"
-                android:textColor="@android:color/black"
-                android:textSize="40sp" />
+                style="@style/subTitleStyle"
+                android:text="@string/movMan" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
-                android:src="@drawable/manoavvolgente" />
+                android:src="@drawable/bracciosteso" />
 
             <TextView
                 android:id="@+id/movManS"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_margin="@dimen/activity_vertical_margin"
-                android:fontFamily="sans-serif-small"
-                android:text="@string/movManS"
-                android:textColor="@android:color/black"
-                android:textSize="25sp" />
-
-
+                style="@style/spiegazioneStyle"
+                android:text="@string/movManS" />
         </LinearLayout>
     </ScrollView>
 
