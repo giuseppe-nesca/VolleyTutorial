@@ -214,11 +214,11 @@ public class MainActivity extends AppCompatActivity
         viewFlipper.setDisplayedChild(n);
     }
 
-    public void myscroll(ScrollView scrollView, TextView textView) //FUNZIONANTE  usa come riferimento per le altre
+    public void myscroll(ScrollView scrollView, TextView textView) //effetta scroll al sottocapitolo passato nella view data.
     {
 
         int y = textView.getTop() - textView.getHeight();
-        int x = textView.getScrollX();
-        scrollView.scrollTo(x, y); //yessss QUESTA FUNZIONA
+        //scrollView.scrollTo(0, y); //scroll immediato
+        scrollView.smoothScrollTo(0,y); //scroll lento, più piacevole graficamente.
     }
 }
