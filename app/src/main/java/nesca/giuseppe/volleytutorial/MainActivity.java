@@ -22,14 +22,14 @@ import android.widget.ViewFlipper;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    int egg=0;
+    int egg = 0;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       // inizializza();
+        // inizializza();
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -37,10 +37,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Snackbar.make(view, "Effettua uno swipe da sinistra verso destra per mostrare il menù", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
 
-                //
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("*/*");
                 intent.putExtra(Intent.EXTRA_TEXT, "type something about VolleyTutorial");
@@ -48,7 +45,6 @@ public class MainActivity extends AppCompatActivity
                 intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"emailsviluppatore@gmail.com"});
                 if (intent.resolveActivity(getPackageManager()) != null)
                     startActivity(intent);
-
             }
         });
 
@@ -74,19 +70,29 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public boolean onPrepareOptionsMenu(Menu menu)
-    {
+    public boolean onPrepareOptionsMenu(Menu menu) {
 
         invalidateOptionsMenu();
         ViewFlipper viewFlipper = (ViewFlipper) findViewById(R.id.vf);
-        switch (viewFlipper.getDisplayedChild())
-        {
-            case 1: getMenuInflater().inflate(R.menu.main,menu);break;          //spike
-            case 2: getMenuInflater().inflate(R.menu.main2,menu); break;        //palleggio
-            case 3: getMenuInflater().inflate(R.menu.main3,menu); break;
-            case 4: getMenuInflater().inflate(R.menu.main4,menu); break;
-            case 5: getMenuInflater().inflate(R.menu.main5,menu); break;
-            default: getMenuInflater().inflate(R.menu.main0,menu); break;
+        switch (viewFlipper.getDisplayedChild()) {
+            case 1:
+                getMenuInflater().inflate(R.menu.main, menu);
+                break;          //spike
+            case 2:
+                getMenuInflater().inflate(R.menu.main2, menu);
+                break;        //palleggio
+            case 3:
+                getMenuInflater().inflate(R.menu.main3, menu);
+                break;         //Muro
+            case 4:
+                getMenuInflater().inflate(R.menu.main4, menu);
+                break;          //Bagher
+            case 5:
+                getMenuInflater().inflate(R.menu.main5, menu);
+                break;          //Battuta
+            default:
+                getMenuInflater().inflate(R.menu.main0, menu);
+                break;          //MainView
         }
 
         return true;
@@ -94,71 +100,67 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_scrollSalto) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.spikeContent);
             TextView textView = (TextView) findViewById(R.id.saltoTitle);
             myscroll(scrollView, textView);
             return true;
         }
-        if (id == R.id.action_scrollMani){
+        if (id == R.id.action_scrollMani) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.spikeContent);
             TextView textView = (TextView) findViewById(R.id.movManT);
             myscroll(scrollView, textView);
             return true;
         }
-        if(id==R.id.action_scrollAInf){
+        if (id == R.id.action_scrollAInf) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.palleggioContent);
             TextView textView = (TextView) findViewById(R.id.inferioriTitPall);
             myscroll(scrollView, textView);
             return true;
         }
-        if(id==R.id.action_scrollASup){
+        if (id == R.id.action_scrollASup) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.palleggioContent);
             TextView textView = (TextView) findViewById(R.id.superioriTitPall);
             myscroll(scrollView, textView);
             return true;
         }
-        if(id==R.id.action_scrollTronco){
+        if (id == R.id.action_scrollTronco) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.palleggioContent);
             TextView textView = (TextView) findViewById(R.id.troncoTitoloPall);
             myscroll(scrollView, textView);
             return true;
         }
-        if(id==R.id.action_scrollTecnica){
+        if (id == R.id.action_scrollTecnica) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.blockContent);
             TextView textView = (TextView) findViewById(R.id.blockTecnicaTitle);
-            myscroll(scrollView,textView);
+            myscroll(scrollView, textView);
         }
-        if(id==R.id.action_scrollStrategie){
+        if (id == R.id.action_scrollStrategie) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.blockContent);
             TextView textView = (TextView) findViewById(R.id.blockStrategieTitle);
-            myscroll(scrollView,textView);
+            myscroll(scrollView, textView);
         }
-        if(id==R.id.action_scrollRicezione){
+        if (id == R.id.action_scrollRicezione) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.bagherContent);
             TextView textView = (TextView) findViewById(R.id.bagherRicezioneTitle);
-            myscroll(scrollView,textView);
+            myscroll(scrollView, textView);
         }
-        if(id==R.id.action_scrollDifesa){
+        if (id == R.id.action_scrollDifesa) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.bagherContent);
             TextView textView = (TextView) findViewById(R.id.bagherDifesaTitle);
-            myscroll(scrollView,textView);
+            myscroll(scrollView, textView);
         }
-        if(id==R.id.action_scrollSpin){
+        if (id == R.id.action_scrollSpin) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.servContent);
             TextView textView = (TextView) findViewById(R.id.servSpinTitle);
-            myscroll(scrollView,textView);
+            myscroll(scrollView, textView);
         }
-        if(id==R.id.action_scrollFloat){
+        if (id == R.id.action_scrollFloat) {
             ScrollView scrollView = (ScrollView) findViewById(R.id.servContent);
             TextView textView = (TextView) findViewById(R.id.servFloatTitle);
-            myscroll(scrollView,textView);
+            myscroll(scrollView, textView);
         }
 
         return super.onOptionsItemSelected(item);
@@ -188,30 +190,18 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    public void info(View view)
-    {
-        TextView textView = (TextView) findViewById(R.id.welcomText2);
-        if (egg==0) {
-            //setTitle();
-
-            textView.setText(R.string.info);
-            egg++;
-        }
-        else{
-            textView.setText("");
-            textView = (TextView) findViewById(R.id.welcomeText);
-            textView.setText("May the ball be with you");
-        }
-
+    public void info(View view) {
+        TextView textView = (TextView) findViewById(R.id.welcomeText);
+        textView.setText("May the ball be with you"); //gust an easter egg
     }
+
     public void spike() //1
     {
         ViewFlipper viewFlipper = (ViewFlipper) findViewById(R.id.vf);
         viewFlipper.setDisplayedChild(1);
     }
 
-    public void returnmainview(View view)
-    {
+    public void returnmainview(View view) {
         changeContent(0);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setBackgroundTintList(getResources().getColorStateList(R.color.colorAccent));
@@ -219,8 +209,7 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
     }
 
-    public void changeContent(int n)
-    {
+    public void changeContent(int n) {
         ViewFlipper viewFlipper = (ViewFlipper) findViewById(R.id.vf);
         viewFlipper.setDisplayedChild(n);
     }
@@ -228,8 +217,8 @@ public class MainActivity extends AppCompatActivity
     public void myscroll(ScrollView scrollView, TextView textView) //FUNZIONANTE  usa come riferimento per le altre
     {
 
-        int y = textView.getTop()-textView.getHeight();
+        int y = textView.getTop() - textView.getHeight();
         int x = textView.getScrollX();
-        scrollView.scrollTo(x,y); //yessss QUESTA FUNZIONA
+        scrollView.scrollTo(x, y); //yessss QUESTA FUNZIONA
     }
 }

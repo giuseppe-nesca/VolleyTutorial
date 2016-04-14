@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_scrollAInf"
+        android:orderInCategory="100"
+        android:title="Arti inf"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_scrollASup"
+        android:orderInCategory="100"
+        android:title="Arti sup"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_scrollTronco"
+        android:orderInCategory="100"
+        android:title="Tronco"
+        app:showAsAction="never"
+        />
+</menu>
