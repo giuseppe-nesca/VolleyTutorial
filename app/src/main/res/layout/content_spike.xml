@@ -26,9 +26,9 @@
         android:weightSum="1">
 
         <Button
-            android:layout_width="165sp"
-            android:layout_height="144sp"
-            android:background="@drawable/ball"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/yball"
             android:layout_gravity="center_horizontal"
             android:onClick="info"/>
 

@@ -1,5 +1,6 @@
 package nesca.giuseppe.volleytutorial;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -36,8 +37,18 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Effettua uno swipe da sinistra verso destra per mostrare il menù", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+//                Snackbar.make(view, "Effettua uno swipe da sinistra verso destra per mostrare il menù", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+
+                //
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("*/*");
+                intent.putExtra(Intent.EXTRA_TEXT, "type something about VolleyTutorial");
+                intent.putExtra(Intent.EXTRA_SUBJECT, "VolleyTutorial app feedback");
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"emailsviluppatore@gmail.com"});
+                if (intent.resolveActivity(getPackageManager()) != null)
+                    startActivity(intent);
+
             }
         });
 
@@ -139,14 +150,14 @@ public class MainActivity extends AppCompatActivity
             TextView textView = (TextView) findViewById(R.id.bagherDifesaTitle);
             myscroll(scrollView,textView);
         }
-        if(id==R.id.action_scrollFloat){
-            ScrollView scrollView=(ScrollView) findViewById(R.id.servContent);
-            TextView textView = (TextView) findViewById(R.id.servFloatTitle);
+        if(id==R.id.action_scrollSpin){
+            ScrollView scrollView = (ScrollView) findViewById(R.id.servContent);
+            TextView textView = (TextView) findViewById(R.id.servSpinTitle);
             myscroll(scrollView,textView);
         }
-        if(id==R.id.action_scrollSpin){
-            ScrollView scrollView=(ScrollView) findViewById(R.id.servContent);
-            TextView textView = (TextView) findViewById(R.id.servSpinTitle);
+        if(id==R.id.action_scrollFloat){
+            ScrollView scrollView = (ScrollView) findViewById(R.id.servContent);
+            TextView textView = (TextView) findViewById(R.id.servFloatTitle);
             myscroll(scrollView,textView);
         }
 
@@ -171,19 +182,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_servizio) {
             changeContent(5);
         }
-        else changeContent(0);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-    public void returntomainview(View view)
-    {
-        changeContent(0);
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setBackgroundTintList(getResources().getColorStateList(R.color.colorAccent));
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
     }
 
     public void info(View view)
@@ -206,6 +208,15 @@ public class MainActivity extends AppCompatActivity
     {
         ViewFlipper viewFlipper = (ViewFlipper) findViewById(R.id.vf);
         viewFlipper.setDisplayedChild(1);
+    }
+
+    public void returnmainview(View view)
+    {
+        changeContent(0);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setBackgroundTintList(getResources().getColorStateList(R.color.colorAccent));
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
     }
 
     public void changeContent(int n)
