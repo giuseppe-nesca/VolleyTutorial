@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // inizializza();
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab); //azione alla pressione del floating button
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
+    public boolean onPrepareOptionsMenu(Menu menu) {    //setta i menù a seconda della view presentata dal flipper
 
         invalidateOptionsMenu();
         ViewFlipper viewFlipper = (ViewFlipper) findViewById(R.id.vf);
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item) {   //azioni del menù: scroll rapido verso i vari sottocapitoli
         int id = item.getItemId();
 
         if (id == R.id.action_scrollSalto) {
@@ -190,18 +190,12 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    public void info(View view) {
+    public void info(View view) {   //un easteregg che si ottiene premendo il pallone presente all'inizio di vari content
         TextView textView = (TextView) findViewById(R.id.welcomeText);
         textView.setText("May the ball be with you"); //gust an easter egg
     }
 
-    public void spike() //1
-    {
-        ViewFlipper viewFlipper = (ViewFlipper) findViewById(R.id.vf);
-        viewFlipper.setDisplayedChild(1);
-    }
-
-    public void returnmainview(View view) {
+    public void returnmainview(View view) { //cliccando su text o icona nel titolo nel drawer permette di tornare nella home
         changeContent(0);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setBackgroundTintList(getResources().getColorStateList(R.color.colorAccent));
@@ -219,6 +213,6 @@ public class MainActivity extends AppCompatActivity
 
         int y = textView.getTop() - textView.getHeight();
         //scrollView.scrollTo(0, y); //scroll immediato
-        scrollView.smoothScrollTo(0,y); //scroll lento, più piacevole graficamente.
+        scrollView.smoothScrollTo(0, y); //scroll lento, più piacevole graficamente.
     }
 }
