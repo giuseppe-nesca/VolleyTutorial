@@ -1,3 +1,6 @@
+#VolleyTutorial
+[![License](http://img.shields.io/:license-gpl3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+
 Come eseguire l'app da Android Studio:
 1. avviare Android Studio
 2. File --> open
